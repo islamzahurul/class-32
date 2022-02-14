@@ -32,34 +32,34 @@ header .menu ul li a{
 /* banner-section */
 .banner-section{
     display: flex;
+    margin-bottom: 40px;
+  
 }
 .banner-left{
     width: 80%;
+    margin-top: 100px;
     
 }
 .banner-right{
     width: 20%;
 }
-.flex{
-    display: flex;
-}
-.banner-left{
-    margin-top: 30px;
-   
-}
+
+
+
 .banner-left .div01{
-    width: 300px;
-    height: 300px;
- 
+    width: 280px;
+    height: 280px;
     border: 1px solid green;
+    
+    align-items: flex-start;
 }
 .banner-top{
     display: flex;
     justify-content: space-around;
 }
 .banner-left .div02{
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
  
     justify-content: center;
     display: flex;
@@ -67,8 +67,8 @@ header .menu ul li a{
     border: 1px solid green;
 }
 .banner-left .div03{
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
   
     display: flex;
     justify-content: end;
@@ -76,25 +76,26 @@ header .menu ul li a{
 
     border: 1px solid green;
 }
-.banner-left .div01 .box{
-    width: 100px;
-    height: 100px;
+.banner-left .div01 .box h1{
+    padding: 20px;
     background-color: red;
     margin: 0;
+    color: #fff;
+    display: inline-block;
 }
-.banner-left .div02 .box{
-    width: 100px;
-    height: 100px;
+.banner-left .div02 .box h1{
+   padding: 20px;
     background-color: red;
     margin: 0;
     align-items: center; 
+    color: #fff;
 }
-.banner-left .div03 .box{
-    width: 100px;
-    height: 100px;
+.banner-left .div03 .box h1{
+  padding: 20px;
     background-color: red;
     margin: 0;
     align-items: center; 
+    color: #fff;
 }
 .box h1{
     display: flex;
@@ -104,15 +105,18 @@ header .menu ul li a{
     width: 100%;
 display: flex;
 margin-top: 30px;
+justify-content: space-evenly;
+padding: 20px;
 
 
 
 
 }
-.center-box{
-   width: 150px;
+.banner-center .center-box{
+width: 150px;
     border: 1px solid green;
     padding: 20px;
+    
 }
 
 .banner-center .center-box:nth-child(1){
@@ -135,10 +139,13 @@ margin-top: 30px;
     border-left: 2px solid red;
     height: 100%;
     margin-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 383px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
+}
+.banner-right h4{
+    padding: 20px;
 }
 .banner-right .log-img img{
     max-width: 100%;
@@ -147,23 +154,86 @@ margin-top: 30px;
 /* banner-bottom */
 .banner-bottom{
     display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+  
+
 }
 .box-botom01{
-width: 250px;
-height: 200px;
+width:250px;
+height: 100px;
 display: flex;
-
-
-
-
+padding: 30px;
+ flex-direction: row;
+ align-items: flex-start;
+justify-content: space-around;
+ border: 1px solid green;
+ 
 }
 .box-botom01 li{
-    padding: 10px;
+    padding: 5px;
     background-color: red;
     color: #fff;
     list-style: none;
+  
 }
-
+.box-botom02{
+    width:250px;
+    height: 100px;
+    display: flex;
+    padding: 30px;
+     flex-direction: row;
+     align-items: flex-start;
+  
+     border: 1px solid green;
+     flex-wrap: wrap;
+     align-content: flex-start;
+}
+.box-botom02 li{
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    list-style: none;
+    border: 1px solid yellow;
+  
+}
+.box-botom03 li{
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    list-style: none;
+    border: 1px solid green;
+}
+.box-botom03{
+    width:250px;
+    height: 100px;
+    display: flex;
+    padding: 30px;
+     flex-direction: row;
+     align-items: flex-start;
+    justify-content: space-around;
+     border: 1px solid green;
+     
+    }
+    .box-botom03 li:nth-child(2){
+        align-self: center;
+    }
+    .box-botom03 li:nth-child(3){
+        align-self: flex-end;
+    }
+    footer{
+        display: flex;
+        padding: 5px;
+        background-color: black;
+        justify-content: center;
+    }
+    footer li{
+        list-style: none;
+        padding: 10px 20px;
+       border-bottom: 1px solid #ddd;
+       color: #fff;
+       margin-right: 10px;
+    }
 
     
 
