@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+}
+header .log{
+    
+}
+header .log img{
+    width: 120px;
+}
+header{}
+header .menu{}
+header .menu ul{
+    display: flex;
+   
+}
+header .menu ul li{
+   padding: 0 18px;
+    list-style: none;
+ 
+}
+header .menu ul li a{
+    color: #fff;
+  text-decoration: none;
+}
+/* banner-section */
+.banner-section{
+    display: flex;
+}
+.banner-left{
+    width: 80%;
+    
+}
+.banner-right{
+    width: 20%;
+}
+.flex{
+    display: flex;
+}
+.banner-left{
+    margin-top: 30px;
+   
+}
+.banner-left .div01{
+    width: 300px;
+    height: 300px;
+ 
+    border: 1px solid green;
+}
+.banner-top{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-left .div02{
+    width: 300px;
+    height: 300px;
+ 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+}
+.banner-left .div03{
+    width: 300px;
+    height: 300px;
+  
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+
+    border: 1px solid green;
+}
+.banner-left .div01 .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0;
+}
+.banner-left .div02 .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0;
+    align-items: center; 
+}
+.banner-left .div03 .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0;
+    align-items: center; 
+}
+.box h1{
+    display: flex;
+}
+/* banner-center */
+.banner-center{
+    width: 100%;
+display: flex;
+margin-top: 30px;
+
+
+
+
+}
+.center-box{
+   width: 150px;
+    border: 1px solid green;
+    padding: 20px;
+}
+
+.banner-center .center-box:nth-child(1){
+    flex-grow: 1;
+}
+.banner-center .center-box:nth-child(2){
+    flex-grow: 2;
+}
+.banner-center .center-box:nth-child(3){
+    flex-grow: 1;
+}
+
+
+
+
+
+
+.banner-right{
+    background-color: #d2d2d2;
+    border-left: 2px solid red;
+    height: 100%;
+    margin-top: 50px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.banner-right .log-img img{
+    max-width: 100%;
+}
+
+/* banner-bottom */
+.banner-bottom{
+    display: flex;
+}
+.box-botom01{
+width: 250px;
+height: 200px;
+display: flex;
+
+
+
+
+}
+.box-botom01 li{
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    list-style: none;
+}
+
+
+    
+
+
+
